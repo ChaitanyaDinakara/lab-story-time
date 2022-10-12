@@ -60,11 +60,11 @@ function convertToCelsius(fahrenheit){
 //Given a value, return which of these above actions Lily would take
 function aDifficultChoice(choice){
   if(choice == 1)
-      choice = 'Take her daughter to a doctor'
+      choice = 'Takes her daughter to a doctor'
   else if(choice == -1)
-      choice = 'Break down and give up all hope'
+      choice = 'Breaks down and give up all hope'
   else if(typeof choice == 'undefined')
-      choice = "Wasn't able to decide"
+      choice = "can't decide"
   else if(choice == 'I give up')
       choice = 'Refused to do anything for Karen'
   return choice
